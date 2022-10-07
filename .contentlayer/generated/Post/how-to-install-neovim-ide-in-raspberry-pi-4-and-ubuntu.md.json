@@ -1,0 +1,33 @@
+{
+  "title": "How to install neovim IDE in Raspberry pi 4 and Ubuntu?",
+  "date": "2022-03-18T17:11:14.000Z",
+  "author": "Rajdeep Singh",
+  "description": "Install the neovim IDE in raspberry pi 4",
+  "slug": "how-to-install-neovim-ide-in-raspberry-pi-4-and-ubuntu",
+  "id": 7,
+  "image": "/images/install--neovim.png",
+  "draft": false,
+  "tags": [
+    "neovim",
+    "Linux",
+    "linux editor"
+  ],
+  "categories": [
+    "neovim",
+    "Linux",
+    "linux editor"
+  ],
+  "body": {
+    "raw": "\n\nThe neovim ide base on linuix vim text editor. neovim ide work inside your terminal. You do not need to install a big IDE in raspberry pi 4. The Biggest IDE Eat more ram and resources. So that reason your raspberry pi is very slow. The slowness of raspberry pi gives motivation and strength to shift vscode Editor to neovim.\n\n**You can install neovim in two ways**\n\n1. Snap store\n2. Apt-get or Apt\n\n## Snap store\n\nYou install neovim is very easy with the snap store. You do not need to use other configurations. all the configurations handle snap cli.\n\n```\nsudo snap install  nvim --classic\n```\n\n### Note\n\n> Snap cli all ready install in ubuntu and raspberry pi user firstly install snap cli after run snap following neovim install command.\n\n## Apt-get or Apt\n\nYou can install neovim with inbuild apt-get command-line utility in Linux distro. Simple, you run the following command, and your neovim start to download in Linux.\n\n```\nsudo apt-get install neovim\n\n```\n\n> apt and apt-get is similar command. you can use one of them. some of distro support apt and some of apt-get. but raspberry pi and ubuntu support both of them.\n\n### How to run neovim in raspberry pi 4 and Ubuntu?\n\nYou can run neovim with terminal very easily.\n\n```\nnvim\n```\n\nOpen the file with neovim.\n\n```\nnvim snapPackage.txt \n\n```\n\n\n\n### How to uninstall or remove neovim?\n\nBased on the installation, you can easily remove neovim IDE.\n\n1. Snap\n2. Apt or Apt-get\n\n### Snap\n\nIf you use snap, you run the following command to remove neovim in raspberry pi and ubuntu.\n\n```\nsudo snap remove nvim\n```\n\n\n\n### Apt or Apt-get\n\nIf you use Apt or Apt-get, you can run the following command to remove neovim in raspberry pi and ubuntu.\n\n```\n sudo apt-get purge neovim\n```\n\n---\n\n### References\n\n> https://snapcraft.io/nvim\n\n\n\n> https://github.com/neovim/neovim\n\n\n---\n\n### Conclusion\n\nI hope my article helps you a lot. If you have any queries and ask me in the comment section.\n\n> **You can also subscribe our email for notification.**\n\n",
+    "html": "<p>The neovim ide base on linuix vim text editor. neovim ide work inside your terminal. You do not need to install a big IDE in raspberry pi 4. The Biggest IDE Eat more ram and resources. So that reason your raspberry pi is very slow. The slowness of raspberry pi gives motivation and strength to shift vscode Editor to neovim.</p>\n<p><strong>You can install neovim in two ways</strong></p>\n<ol>\n<li>Snap store</li>\n<li>Apt-get or Apt</li>\n</ol>\n<h2>Snap store</h2>\n<p>You install neovim is very easy with the snap store. You do not need to use other configurations. all the configurations handle snap cli.</p>\n<pre><code>sudo snap install  nvim --classic\n</code></pre>\n<h3>Note</h3>\n<blockquote>\n<p>Snap cli all ready install in ubuntu and raspberry pi user firstly install snap cli after run snap following neovim install command.</p>\n</blockquote>\n<h2>Apt-get or Apt</h2>\n<p>You can install neovim with inbuild apt-get command-line utility in Linux distro. Simple, you run the following command, and your neovim start to download in Linux.</p>\n<pre><code>sudo apt-get install neovim\n\n</code></pre>\n<blockquote>\n<p>apt and apt-get is similar command. you can use one of them. some of distro support apt and some of apt-get. but raspberry pi and ubuntu support both of them.</p>\n</blockquote>\n<h3>How to run neovim in raspberry pi 4 and Ubuntu?</h3>\n<p>You can run neovim with terminal very easily.</p>\n<pre><code>nvim\n</code></pre>\n<p>Open the file with neovim.</p>\n<pre><code>nvim snapPackage.txt \n\n</code></pre>\n<h3>How to uninstall or remove neovim?</h3>\n<p>Based on the installation, you can easily remove neovim IDE.</p>\n<ol>\n<li>Snap</li>\n<li>Apt or Apt-get</li>\n</ol>\n<h3>Snap</h3>\n<p>If you use snap, you run the following command to remove neovim in raspberry pi and ubuntu.</p>\n<pre><code>sudo snap remove nvim\n</code></pre>\n<h3>Apt or Apt-get</h3>\n<p>If you use Apt or Apt-get, you can run the following command to remove neovim in raspberry pi and ubuntu.</p>\n<pre><code> sudo apt-get purge neovim\n</code></pre>\n<hr>\n<h3>References</h3>\n<blockquote>\n<p>https://snapcraft.io/nvim</p>\n</blockquote>\n<blockquote>\n<p>https://github.com/neovim/neovim</p>\n</blockquote>\n<hr>\n<h3>Conclusion</h3>\n<p>I hope my article helps you a lot. If you have any queries and ask me in the comment section.</p>\n<blockquote>\n<p><strong>You can also subscribe our email for notification.</strong></p>\n</blockquote>"
+  },
+  "_id": "how-to-install-neovim-ide-in-raspberry-pi-4-and-ubuntu.md",
+  "_raw": {
+    "sourceFilePath": "how-to-install-neovim-ide-in-raspberry-pi-4-and-ubuntu.md",
+    "sourceFileName": "how-to-install-neovim-ide-in-raspberry-pi-4-and-ubuntu.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "how-to-install-neovim-ide-in-raspberry-pi-4-and-ubuntu"
+  },
+  "type": "Post"
+}

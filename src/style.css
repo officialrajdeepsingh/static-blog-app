@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+html {
+    font-family: karla;
+}
+
+.article-body h2{
+    @apply text-2xl font-bold pb-3 font-karla 
+}
+
+.article-body p{
+    @apply pb-3 font-karla 
+}
+
+.article-body ul {
+    @apply list-disc
+}
+
+
+.article-body pre{
+    @apply bg-slate-400 my-3 overflow-x-auto p-2 
+}
+
+
+.article-body pre code{
+    @apply font-sans text-lg
+}
+
+.article-body p a{
+    @apply border-b-2 border-solid border-blue-500
+}
+
+
+.article-body ol {
+    @apply list-decimal
+}

@@ -1,0 +1,33 @@
+{
+  "title": "not write",
+  "date": "2022-03-18T17:11:14.000Z",
+  "author": "Rajdeep Singh",
+  "description": "",
+  "slug": "new-article",
+  "id": 12,
+  "image": "/images/contentlayer.png",
+  "draft": true,
+  "tags": [
+    "neovim",
+    "Linux",
+    "linux editor"
+  ],
+  "categories": [
+    "neovim",
+    "Linux",
+    "linux editor"
+  ],
+  "body": {
+    "raw": "\nPadding ",
+    "html": "<p>Padding</p>"
+  },
+  "_id": "new-article.md",
+  "_raw": {
+    "sourceFilePath": "new-article.md",
+    "sourceFileName": "new-article.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "new-article"
+  },
+  "type": "Post"
+}

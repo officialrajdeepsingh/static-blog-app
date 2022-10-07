@@ -1,0 +1,32 @@
+{
+  "title": "Finaly testing all functinalty",
+  "date": "2022-08-16T14:21:07.718Z",
+  "author": "Rajdeep Singh",
+  "description": "Finally every thing is fine",
+  "slug": "finaly-testing-all-functinalty",
+  "image": "/images/contentlayer.png",
+  "draft": false,
+  "tags": [
+    "blog",
+    "written",
+    "testing"
+  ],
+  "categories": [
+    "Blog",
+    "written",
+    "testing"
+  ],
+  "body": {
+    "raw": "Welcome to my article.\n\nHave nice day",
+    "html": "<p>Welcome to my article.</p>\n<p>Have nice day</p>"
+  },
+  "_id": "finaly-testing-all-functinalty.md",
+  "_raw": {
+    "sourceFilePath": "finaly-testing-all-functinalty.md",
+    "sourceFileName": "finaly-testing-all-functinalty.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "finaly-testing-all-functinalty"
+  },
+  "type": "Post"
+}
