@@ -27,7 +27,7 @@ export default function Header() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link href="/">
+                        <Link href="/about">
                             <a className="mr-5 hover:text-gray-900">
                                 About
                             </a>

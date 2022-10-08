@@ -34,10 +34,10 @@ export default function Search() {
 
     return (
         <>
-            <section className="flex flex-col max-w-4xl  items-center mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 md:flex-row md:h-48">
+            <section className="flex flex-col max-w-4xl  items-center mx-auto overflow-hidden bg-white rounded-lg shadow-lg  md:flex-row md:h-48">
 
-                <div className="justify-between pb-6 md:py-0 md:w-1/2 h-12 flex flex-col p-1.5 mx-auto overflow-hidden border rounded-lg dark:border-gray-600 lg:flex-row dark:focus-within:border-blue-300 focus-within:ring focus-within:ring-opacity-40 focus-within:border-blue-400 focus-within:ring-blue-300">
-                    <input onChange={onChangeFunction} value={search !== undefined ? search : ''} className="px-6 py-2 text-gray-700 placeholder-gray-500 bg-white outline-none dark:bg-gray-800 dark:placeholder-gray-400 focus:placeholder-transparent dark:focus:placeholder-transparent" type="text" name="serach" placeholder="Enter your query" aria-label="Enter your query" />
+                <div className="justify-between pb-6 md:py-0 md:w-1/2 h-12 flex flex-col p-1.5 mx-auto overflow-hidden border rounded-lg lg:flex-row dark:focus-within:border-blue-300 focus-within:ring focus-within:ring-opacity-40 focus-within:border-blue-400 focus-within:ring-blue-300">
+                    <input onChange={onChangeFunction} value={search !== undefined ? search : ''} className="px-6 py-2 text-gray-700 placeholder-gray-500 bg-white outline-none  focus:placeholder-transparent dark:focus:placeholder-transparent" type="text" name="serach" placeholder="Enter your query" aria-label="Enter your query" />
 
                     <button className="px-4 py-3 text-sm font-medium tracking-wider text-gray-100 uppercase transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:bg-gray-600 focus:outline-none">Search</button>
                 </div>
