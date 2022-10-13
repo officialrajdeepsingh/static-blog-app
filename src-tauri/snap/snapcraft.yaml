@@ -1,0 +1,31 @@
+name: static-blog-app
+base: core18
+version: 0.0.2
+summary: Tauri app.
+description: Awesome Tauri app.
+grade: stable
+confinement: strict
+source-code: https://github.com/officialrajdeepsingh/static-blog-app
+apps:
+  static-blog-app:
+    command: static-blog-app
+    extensions:
+      - gnome-3-34
+    desktop: static-blog-app.desktop
+parts:
+  dump-binary:
+    plugin: dump
+    source: ./target/release
+    source-type: local
+    stage:
+      - lib
+      - icons
+      - static-blog-app
+      - static-blog-app.desktop
+    prime:
+      - lib
+      - icons
+      - static-blog-app
+      - static-blog-app.desktop
+    stage-packages:
+      - libc6

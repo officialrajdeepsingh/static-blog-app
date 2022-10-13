@@ -1,0 +1,15 @@
+{
+  "id" : "com.officialrajdeepsingh.blog",
+  "runtime" : "org.freedesktop.Platform",
+  "runtime-version" : "21.08",
+  "runtime-commit" : "c7252386179c4c1ecf5d93bdaec6ca82852dddfdae7112b5c3177f7424c4a928",
+  "sdk" : "org.freedesktop.Sdk",
+  "sdk-commit" : "829d2745d7122e1669f0dabdc8a1906effb7a41b5f30bebbded350089b779b06",
+  "modules" : [
+    {
+      "name" : "static-blog-app",
+      "no-autogen" : true,
+      "buildsystem" : "autotools"
+    }
+  ]
+}
