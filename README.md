@@ -4,6 +4,9 @@ Static Blog is a desktop-based application built with Tauri and Next.js.
 ![demo](./public/screenshort.png)
 
 
+## Note
+Before building your application in tauri with nextjs, run ESLint configuration `pnpm lint` to remove all errors. Then run `pnpm tauri`.
+
 ## Start development server
 To start the development server, run `pnpm tauri dev` command in the terminal.
 
